@@ -114,6 +114,8 @@ namespace CommandDesignPattern
                 c.Undo();
 
             WriteLine(ba);
+
+            ReadKey();
         }
     }
 }
